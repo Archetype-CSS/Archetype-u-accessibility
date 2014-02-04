@@ -8,38 +8,38 @@
  * Focus state for keyboard and accessibility
  */
 .test__u-tab-focus {
-  @extend %tab-focus;
+  @extend %u-tab-focus;
 }
 
 /**
  * Image Replacement
  */
 .test__u-ir {
-  @extend %ir;
+  @extend %u-ir;
 }
 
 /**
  * Hidden
  */
 .test__u-hidden {
-  @extend %hidden;
+  @extend %u-hidden;
 }
 
 /**
  * Invisable
  */
 .test__u-invisable {
-  @extend %invisable;
+  @extend %u-invisable;
 }
 
 /**
  * Visually Hidden
  */
 .test__u-visuallyHidden {
-  @include visually-hidden;
+  @extend %u-visuallyHidden;
 }
 
 .test__u-visuallyHidden-focusable {
-  @include visually-hidden(focusable);
+  @extend %u-visuallyHidden-focusable;
 }
 
