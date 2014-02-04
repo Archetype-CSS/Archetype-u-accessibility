@@ -1,0 +1,45 @@
+/**
+ * Test: Archetype/u-text.scss
+ *
+ */
+@import '../../_u-accessibility.scss';
+
+/**
+ * Focus state for keyboard and accessibility
+ */
+.test__u-tab-focus {
+  @extend %tab-focus;
+}
+
+/**
+ * Image Replacement
+ */
+.test__u-ir {
+  @extend %ir;
+}
+
+/**
+ * Hidden
+ */
+.test__u-hidden {
+  @extend %hidden;
+}
+
+/**
+ * Invisable
+ */
+.test__u-invisable {
+  @extend %invisable;
+}
+
+/**
+ * Visually Hidden
+ */
+.test__u-visuallyHidden {
+  @include visually-hidden;
+}
+
+.test__u-visuallyHidden-focusable {
+  @include visually-hidden(focusable);
+}
+
