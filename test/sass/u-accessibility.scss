@@ -36,10 +36,10 @@
  * Visually Hidden
  */
 .test__u-visuallyHidden {
-  @extend %u-visuallyHidden;
+  @extend %u-vh;
 }
 
 .test__u-visuallyHidden-focusable {
-  @extend %u-visuallyHidden-focusable;
+  @extend %u-vhf;
 }
 
