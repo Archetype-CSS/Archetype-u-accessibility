@@ -17,8 +17,8 @@ Archetype utilities for accessibility.
 ## Run the Test Locally
 
 ```bash
-git clone https://github.com/Archetype-CSS/u-accessibility.git
-cd u-accessibility
+git clone https://github.com/Archetype-CSS/Archetype-u-accessibility.git
+cd Archetype-u-accessibility
 npm install
 grunt
 ```
