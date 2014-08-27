@@ -2,32 +2,35 @@
  * Test: Archetype/u-text.scss
  *
  */
+/*** @export "Archetype-u-accessibility" css */
 /**
- * Accessibility
+ * Archetype Accessibility Utilities
  * 
  */
+/*** @export "Archetype-u-display--tab-focus" css */
 /**
  * Focus state for keyboard and accessibility
  *
  * https://github.com/jlong/sass-twitter-bootstrap/blob/master/lib/_mixins.scss
  */
-/* line 12, ../../_u-accessibility.scss */
+/* line 13, ../../_u-accessibility.scss */
 .test__u-tab-focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
+/*** @export "Archetype-u-display--image-replacement" css */
 /**
  * Image Replacement
  */
-/* line 23, ../../_u-accessibility.scss */
+/* line 25, ../../_u-accessibility.scss */
 .test__u-ir {
   background-color: transparent;
   border: 0;
   overflow: hidden;
 }
-/* line 27, ../../_u-accessibility.scss */
+/* line 29, ../../_u-accessibility.scss */
 .test__u-ir:before {
   content: "";
   display: block;
@@ -35,19 +38,21 @@
   height: 150%;
 }
 
+/*** @export "Archetype-u-display--hidden" css */
 /**
  * Hidden
  * 
  * http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
  * same as compass: @include hide-text(); which includes a hide-left argument
  */
-/* line 42, ../../_u-accessibility.scss */
+/* line 44, ../../_u-accessibility.scss */
 .test__u-hidden {
   overflow: hidden;
   text-indent: 110%;
   white-space: nowrap;
 }
 
+/*** @export "Archetype-u-display--invisable" css */
 /**
  * Invisable
  *
@@ -57,12 +62,13 @@
  * 
  * also consider adding: aria-hidden="true" attribute
  */
-/* line 58, ../../_u-accessibility.scss */
+/* line 61, ../../_u-accessibility.scss */
 .test__u-invisable {
   display: none !important;
   visibility: hidden;
 }
 
+/*** @export "Archetype-u-display--visually-hidden" css */
 /**
  * Visually Hidden
  * 
@@ -71,7 +77,7 @@
  * $focus-state argument extends the .visuallyhidden class
  * allows the element to be focusable when navigated to via the keyboard: h5bp.com/p 
  */
-/* line 94, ../../_u-accessibility.scss */
+/* line 97, ../../_u-accessibility.scss */
 .test__u-visuallyHidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -83,7 +89,7 @@
   width: 1px;
 }
 
-/* line 97, ../../_u-accessibility.scss */
+/* line 100, ../../_u-accessibility.scss */
 .test__u-visuallyHidden-focusable {
   border: 0;
   clip: rect(0 0 0 0);
@@ -94,7 +100,7 @@
   position: absolute;
   width: 1px;
 }
-/* line 82, ../../_u-accessibility.scss */
+/* line 85, ../../_u-accessibility.scss */
 .test__u-visuallyHidden-focusable:active, .test__u-visuallyHidden-focusable:focus {
   clip: auto;
   height: auto;
