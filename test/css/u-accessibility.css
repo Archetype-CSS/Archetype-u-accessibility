@@ -77,7 +77,10 @@
  * $focus-state argument extends the .visuallyhidden class
  * allows the element to be focusable when navigated to via the keyboard: h5bp.com/p 
  */
-/* line 97, ../../_u-accessibility.scss */
+/**
+ * Visually Hidden
+ */
+/* line 100, ../../_u-accessibility.scss */
 .test__u-visuallyHidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -89,7 +92,10 @@
   width: 1px;
 }
 
-/* line 100, ../../_u-accessibility.scss */
+/**
+ * Visually Hidden Focusable
+ */
+/* line 107, ../../_u-accessibility.scss */
 .test__u-visuallyHidden-focusable {
   border: 0;
   clip: rect(0 0 0 0);
