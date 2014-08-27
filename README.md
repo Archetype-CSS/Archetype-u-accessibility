@@ -11,8 +11,8 @@ Archetype utilities for accessibility.
   * `%u-ir` - image replacement
   * `%u-hidden` - hidden visually (but not from screen readers)
   * `%u-invisable` - hidden visually (and from screen readers)
-  * `%u-visuallyHidden` - hidden visually (but not from screen readers)
-  * `%u-visuallyHidden-focusable` - hidden visually (but still focasable)
+  * `%u-vh` - hidden visually (but not from screen readers)
+  * `%u-vhf` - hidden visually (but still focasable)
 
 ## Run the Test Locally
 
